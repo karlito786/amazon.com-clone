@@ -1,1 +1,3 @@
-const products = [];
+const products = [{
+  
+}];
