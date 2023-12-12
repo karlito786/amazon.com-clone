@@ -4,7 +4,9 @@ import {formatCurrency} from './utils/money.js';
 
 hello();
 
-console.log(dayjs());
+const today = dayjs();
+const deliveryDate = today.add(7, 'days');
+console.log(deliveryDate.format('dddd, MMMM D'));
 
 let cartSummaryHTML ='';
 
